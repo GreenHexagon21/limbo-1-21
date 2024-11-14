@@ -10,14 +10,9 @@
 	  "water_fog_color": 16777215,
 	  "grass_color": 15263976,
 	  "foliage_color": 15592941,
-	  "music": {
-		"min_delay": 600,
-		"max_delay": 16000,
-		"replace_current_music": false
-	  },
 	  "particle": {
 		"options": {
-		  "type": "instant_effect"
+		  "type": "minecraft:instant_effect"
 		},
 		"probability": 0.01
 	  }
@@ -51,15 +46,10 @@
 		"charge": 3
 	  }
 	},
-	"carvers": {
-	  "air": [
-		"minecraft:cave",
-		"minecraft:canyon"
-	  ],
-	  "liquid": [
-		"minecraft:cave"
-	  ]
-	},
+	"carvers": [
+	  "minecraft:canyon",
+	  "minecraft:cave"
+	],
 	"features": [
 	  [],
 	  [],
