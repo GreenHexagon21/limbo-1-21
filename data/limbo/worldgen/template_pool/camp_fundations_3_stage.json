@@ -1,0 +1,78 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_cross",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_cross_with_structure",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_line",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_line_with_structure",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_turn",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_turn_with_structure",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_way",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_3_way_with_structure",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

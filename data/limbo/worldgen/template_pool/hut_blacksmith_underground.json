@@ -1,0 +1,23 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_blacksmith_underground_1",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_blacksmith_underground_2",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

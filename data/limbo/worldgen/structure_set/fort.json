@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "limbo:fort",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1646208470,
+		"spacing": 90,
+		"separation": 10
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/enchanter/armorer",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/enchanter/tooler",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/enchanter/weaponer",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

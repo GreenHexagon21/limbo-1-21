@@ -1,0 +1,55 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/exiticist",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/flowerist",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/generalist",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/oceanist",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/saplingist",
+		  "processors": "minecraft:empty"
+		}
+	  },	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/herbalists/seedist",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

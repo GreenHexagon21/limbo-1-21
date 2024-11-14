@@ -1,0 +1,60 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/fish",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/horse",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/misc",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/sand",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/trader",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/shaman/villager",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

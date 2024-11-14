@@ -1,0 +1,87 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_herbalist_1_aboveground",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  },
+	  {
+		"weight": 3,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_shaman_1",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  },
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_herbalist_2_aboveground",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_enchanter_2",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_enchanter_1",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_1",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_2",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_3",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_4",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

@@ -1,0 +1,47 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/blacksmiths/block",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/blacksmiths/deep",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/blacksmiths/mud",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/blacksmiths/sand",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/blacksmiths/stone",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "limbo:well",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1696541175,
+		"spacing": 10,
+		"separation": 5
+	}
+}

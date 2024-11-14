@@ -1,0 +1,24 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_2_left_to_right",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:camp_stage_2_top_to_bottom",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

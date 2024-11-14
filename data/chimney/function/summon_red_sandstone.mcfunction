@@ -1,0 +1,3 @@
+execute anchored eyes run summon armor_stand ~ ~ ~ {CustomNameVisible: 0b, NoGravity: 1b, Silent: 1b, Invulnerable: 1b, HasVisualFire: 0b, Glowing: 0b, ShowArms: 0b, Invisible: 1b, CustomName: '{"text":"chimney"}'}
+execute anchored eyes run setblock ~ ~ ~ minecraft:player_head[rotation=0]{SkullOwner: {Id: [I; 1043173773, -1201256152, -2133936096, 1796468833], Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ3YWQwN2FkYjQ0YjM2ZmFkYzgyYTFmOGJiNzJhNGFmNTU3MmFjYWM3MDczY2M4NWNlNWQyNTFiNTljOTkxOSJ9fX0="}]}}} replace
+execute at @a[nbt={SelectedItem: {id: "minecraft:red_sandstone", tag: {display: {Name: '{"text":"chimney"}'}}}}] run clear @a minecraft:red_sandstone{display: {Name: '{"text":"chimney"}'}} 1

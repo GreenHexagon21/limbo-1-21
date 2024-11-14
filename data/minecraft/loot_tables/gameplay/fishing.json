@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:paper",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Fisherman\\'s note\"}',Lore:['{\"text\":\"Had more luck on deeper waters\"}']}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:black_dye"
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:brown_mushroom"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": false
+                }
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "limbo:limbo_dim"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "limbo:gameplay/fishing_old",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "limbo:gameplay/fishing_limbo",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "limbo:limbo_dim"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

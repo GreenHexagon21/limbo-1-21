@@ -1,0 +1,159 @@
+{
+  "name": "limbo:cogs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:13x13_middle_cog_alt",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:13x13_end_cog_alt",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:13x13_middle_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:13x13_end_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:15x15_middle_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:15x15_wallstart_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:15x15_end_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:15x15_start_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:3x3_full_connector",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:3x3_connector",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:9x9_middle_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:9x9_end_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:7x7_middle_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:7x7_end_cog",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:3x3_connector_wallstart",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:3x3_jagged_connector",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "limbo:1x1_connector",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

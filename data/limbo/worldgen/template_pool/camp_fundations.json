@@ -1,0 +1,141 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:bottom_to_left_and_top_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:bottom_to_left_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:bottom_to_top_middle_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:bottom_to_top_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:lect_to_left_middle_to_side_foundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:lect_to_top_and_bottom_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:left_to_top_and_left_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:left_to_top_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:right_to_left_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:right_to_right_middle_to_side_foundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:right_to_top_middle_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:top_to_2sides_middle_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:top_to_left_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:top_to_right_middle_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:cross_side_to_side_fundation",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

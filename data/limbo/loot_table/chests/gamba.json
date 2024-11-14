@@ -1,0 +1,139 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+		  "type": "minecraft:uniform",
+		  "min": 2,
+		  "max": 5
+		},
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:ender_chest",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 2
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:sponge",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 8,
+				  "max": 32
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:sculk_catalyst",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 2
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:netherite_scrap",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 2
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:budding_amethyst",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 4
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:blue_ice",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 16,
+				  "max": 32
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 3,
+			"name": "minecraft:lava_bucket"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 4,
+				  "max": 8
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;-319079917,1158563260,-1464689321,-159001546],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYyMmMzMGMzOGYyNmI1NTk0YjAwOGNmZGVlNDQyMGNkMDUzODU3MjZhOTc5MWI2Yjg0MTQ0MTQyMjJiMDAxYSJ9fX0=\"}]}}}"
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": [
+				  {
+					"text": "Orb of Transmutation",
+					"color": "gray",
+					"bold": true
+				  }
+				]
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }
+  
