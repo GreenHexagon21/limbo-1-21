@@ -12,8 +12,9 @@
               {
                 "function": "minecraft:exploration_map",
                 "destination": "limbo:portal",
-                "decoration": "red_x",
-                "zoom": 1,
+                "decoration": "banner_white",
+                "search_radius": 75,
+                "zoom": 3,
                 "skip_existing_chunks": false
               },
               {
