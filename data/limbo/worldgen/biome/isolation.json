@@ -77,10 +77,12 @@
 		"charge": 0.65
 	  }
 	},
-	"carvers": [
-	  "minecraft:canyon",
-	  "minecraft:cave"
-	],
+	  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
 	"features": [
 	  [],
 	  [
