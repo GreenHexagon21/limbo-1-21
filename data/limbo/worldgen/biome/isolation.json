@@ -10,6 +10,17 @@
 	  "water_fog_color": 16777215,
 	  "grass_color": 1315860,
 	  "foliage_color": 1315860,
+	  "ambient_sound": {
+		"sound_id": "extrasounds:ambient.limbo.loop"
+	  },
+	  "music": {
+		"sound": {
+		  "sound_id": "extrasounds:music.limbo"
+		},
+		"min_delay": 600,
+		"max_delay": 16000,
+		"replace_current_music": false
+	  },
 	  "particle": {
 		"options": {
 		  "type": "minecraft:ash"
@@ -58,23 +69,23 @@
 	"spawn_costs": {
 	  "minecraft:vindicator": {
 		"energy_budget": 0.12,
-		"charge": 1.1
+		"charge": 20
 	  },
 	  "minecraft:pillager": {
 		"energy_budget": 0.12,
-		"charge": 0.9
+		"charge": 10
 	  },
 	  "minecraft:evoker": {
 		"energy_budget": 0.12,
-		"charge": 1.5
+		"charge": 30
 	  },
 	  "minecraft:enderman": {
 		"energy_budget": 0.12,
-		"charge": 0.8
+		"charge": 5
 	  },
 	  "minecraft:spider": {
-		"energy_budget": 0.11,
-		"charge": 0.65
+		"energy_budget": 0.12,
+		"charge": 3
 	  }
 	},
 	"carvers": [
