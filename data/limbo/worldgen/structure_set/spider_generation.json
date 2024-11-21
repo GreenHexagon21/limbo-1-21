@@ -1,0 +1,15 @@
+{
+	"structures": [
+	  {
+		"structure": "limbo:spider",
+		"weight": 1
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 1890147690,
+	  "spacing": 25,
+	  "separation": 10
+	}
+  }
+  
