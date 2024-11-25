@@ -1,0 +1,151 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_1",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_2",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_3",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_4",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_5",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_6",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_7",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_8",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_9",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_10",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_11",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_12",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_13",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_14",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_15",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_16",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_17",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:notes/note_18",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  }
+	]
+  }
+  

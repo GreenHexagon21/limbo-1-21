@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "limbo:note",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1984185593,
+      "spacing": 10,
+      "separation": 1
+    }
+  }
+  
