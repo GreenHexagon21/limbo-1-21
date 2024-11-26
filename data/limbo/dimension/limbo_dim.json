@@ -1,253 +1,462 @@
 {
 	"type": "limbo:limbo_type",
 	"generator": {
-	  "type": "minecraft:noise",
-	  "settings": "limbo:limbo_noise_settings",
 	  "biome_source": {
-		"type": "minecraft:multi_noise",
 		"biomes": [
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  -0.05
-				],
-				"continentalness": [
-				  -1.2,
-				  -1.195
-				],
-				"erosion": [
-				  -1,
-				  -0.78
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:blossom"
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				0
+			  ],
+			  "continentalness": [
+				-1.2,
+				-1.19
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  -0.05
-				],
-				"continentalness": [
-				  -1.2,
-				  -1.06
-				],
-				"erosion": [
-				  -0.78,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:hope"
+			"biome": "limbo:blossom"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				-1.19,
+				-1
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  1
-				],
-				"continentalness": [
-				  -1.195,
-				  -1.06
-				],
-				"erosion": [
-				  -1,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:hope"
+			"biome": "limbo:hope"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				0
+			  ],
+			  "continentalness": [
+				-1,
+				-0.125
+			  ],
+			  "erosion": [
+				-1,
+				0.5
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  1
-				],
-				"continentalness": [
-				  -1.06,
-				  -0.455
-				],
-				"erosion": [
-				  -1,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:despair"
+			"biome": "limbo:despair"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				0
+			  ],
+			  "continentalness": [
+				-1,
+				-0.5
+			  ],
+			  "erosion": [
+				0.5,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  1
-				],
-				"continentalness": [
-				  -0.455,
-				  -0.355
-				],
-				"erosion": [
-				  -1,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:change"
+			"biome": "limbo:dread"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				-0.5,
+				-0.125
+			  ],
+			  "erosion": [
+				0.5,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -1,
-				  1
-				],
-				"continentalness": [
-				  -0.355,
-				  1
-				],
-				"erosion": [
-				  -1,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:isolation"
+			"biome": "limbo:despair"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				-0.125,
+				0
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -0.05,
-				  1
-				],
-				"continentalness": [
-				  -1.2,
-				  -1.06
-				],
-				"erosion": [
-				  -1,
-				  -0.78
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:hope"
+			"biome": "limbo:change"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				0,
+				0.75
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
 			},
-			{
-			  "parameters": {
-				"weirdness": [
-				  -0.05,
-				  1
-				],
-				"continentalness": [
-				  -1.2,
-				  -1.195
-				],
-				"erosion": [
-				  -0.78,
-				  1
-				],
-				"temperature": [
-				  -1,
-				  1
-				],
-				"humidity": [
-				  -1,
-				  1
-				],
-				"depth": [
-				  0,
-				  1.1
-				],
-				"offset": 0
-			  },
-			  "biome": "limbo:blossom"
-			}
-		  ]
-	  }
+			"biome": "limbo:isolation"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				0.75,
+				1
+			  ],
+			  "erosion": [
+				-1,
+				-0.5
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:desolation"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				0.75,
+				1
+			  ],
+			  "erosion": [
+				-0.5,
+				0
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:isolation"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				0.75,
+				1
+			  ],
+			  "erosion": [
+				0,
+				0.5
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:desolation"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				-1,
+				1
+			  ],
+			  "continentalness": [
+				0.75,
+				1
+			  ],
+			  "erosion": [
+				0.5,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:isolation"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				0,
+				1
+			  ],
+			  "continentalness": [
+				-1.2,
+				-1
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:hope"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				0,
+				1
+			  ],
+			  "continentalness": [
+				-1,
+				-0.5
+			  ],
+			  "erosion": [
+				-1,
+				0.5
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:dread"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				0,
+				1
+			  ],
+			  "continentalness": [
+				-1,
+				-0.125
+			  ],
+			  "erosion": [
+				0.5,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:despair"
+		  },
+		  {
+			"parameters": {
+			  "weirdness": [
+				0,
+				1
+			  ],
+			  "continentalness": [
+				-0.5,
+				-0.125
+			  ],
+			  "erosion": [
+				-1,
+				1
+			  ],
+			  "temperature": [
+				-1,
+				1
+			  ],
+			  "humidity": [
+				-1,
+				1
+			  ],
+			  "depth": [
+				-1,
+				1
+			  ],
+			  "offset": 0
+			},
+			"biome": "limbo:despair"
+		  }
+		],
+		"type": "minecraft:multi_noise"
+	  },
+	  "settings": "limbo:limbo_noise_settings",
+	  "type": "minecraft:noise"
 	}
   }
-  
