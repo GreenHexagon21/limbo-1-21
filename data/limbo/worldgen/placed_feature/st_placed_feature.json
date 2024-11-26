@@ -1,58 +1,71 @@
 {
 	"feature": "limbo:smaller_tree",
 	"placement": [
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": {
-				"type": "minecraft:weighted_list",
-				"distribution": [
-					{
-						"weight": 1,
-						"data": -5
-					},
-					{
-						"weight": 1,
-						"data": 5
-					},
-					{
-						"weight": 1,
-						"data": 0
-					}
-				]
-			},
-			"y_spread": 0
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
-		},
-		{
-			"type": "minecraft:biome"
-		},
-		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:all_of",
-				"predicates": [
-					{
-						"type": "minecraft:matching_blocks",
-						"blocks": "minecraft:air"
-					},
-					{
-						"type": "minecraft:matching_blocks",
-						"offset": [
-							0,
-							-1,
-							0
-						],
-						"blocks": "minecraft:black_concrete_powder"
-					}
-				]
-			}
-		},
-		{
-			"type": "minecraft:count",
-			"count": 50
+	  {
+		"type": "minecraft:count",
+		"count": {
+		  "type": "minecraft:uniform",
+		  "min_inclusive": 3,
+		  "max_inclusive": 4
 		}
+	  },
+	  {
+		"type": "minecraft:random_offset",
+		"xz_spread": {
+		  "type": "minecraft:weighted_list",
+		  "distribution": [
+			{
+			  "weight": 1,
+			  "data": {
+				"type": "minecraft:uniform",
+				"min_inclusive": -5,
+				"max_inclusive": 0
+			  }
+			},
+			{
+			  "weight": 1,
+			  "data": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 0,
+				"max_inclusive": 5
+			  }
+			},
+			{
+			  "weight": 1,
+			  "data": 0
+			}
+		  ]
+		},
+		"y_spread": 0
+	  },
+	  {
+		"type": "minecraft:heightmap",
+		"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+	  },
+	  {
+		"type": "minecraft:biome"
+	  },
+	  {
+		"type": "minecraft:block_predicate_filter",
+		"predicate": {
+		  "type": "minecraft:all_of",
+		  "predicates": [
+			{
+			  "type": "minecraft:matching_blocks",
+			  "blocks": "minecraft:air"
+			},
+			{
+			  "type": "minecraft:matching_blocks",
+			  "offset": [
+				0,
+				-1,
+				0
+			  ],
+			  "blocks": "minecraft:black_concrete_powder"
+			}
+		  ]
+		}
+	  }
 	]
-}
+  }
+  
