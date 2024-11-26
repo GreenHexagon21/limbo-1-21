@@ -1,9 +1,13 @@
 {
-	"feature": "limbo:cut_tree_varied",
+	"feature": "limbo:cut_tree",
 	"placement": [
 	  {
 		"type": "minecraft:count_on_every_layer",
-		"count": 8
+		"count": {
+		  "type": "minecraft:uniform",
+		  "min_inclusive": 1,
+		  "max_inclusive": 3
+		}
 	  },
 	  {
 		"type": "minecraft:heightmap",
