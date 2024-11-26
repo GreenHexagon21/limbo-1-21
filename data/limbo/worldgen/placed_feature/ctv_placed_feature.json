@@ -1,0 +1,38 @@
+{
+	"feature": "limbo:cut_tree_varied",
+	"placement": [
+	  {
+		"type": "minecraft:count_on_every_layer",
+		"count": 8
+	  },
+	  {
+		"type": "minecraft:heightmap",
+		"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+	  },
+	  {
+		"type": "minecraft:biome"
+	  },
+	  {
+		"type": "minecraft:block_predicate_filter",
+		"predicate": {
+		  "type": "minecraft:all_of",
+		  "predicates": [
+			{
+			  "type": "minecraft:matching_blocks",
+			  "blocks": "minecraft:air"
+			},
+			{
+			  "type": "minecraft:matching_blocks",
+			  "offset": [
+				0,
+				-1,
+				0
+			  ],
+			  "blocks": "minecraft:black_concrete_powder"
+			}
+		  ]
+		}
+	  }
+	]
+  }
+  
