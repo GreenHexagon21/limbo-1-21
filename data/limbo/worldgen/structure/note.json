@@ -2,7 +2,7 @@
 	"type": "minecraft:jigsaw",
 	"biomes": [
 		"limbo:isolation",
-		"limbo:change"
+		"limbo:desolation"
 	  ],
 	"step": "lakes",
 	"spawn_overrides": {},
