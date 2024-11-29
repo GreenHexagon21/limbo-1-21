@@ -11,6 +11,7 @@
 	  "salt": 1696542275,
 	  "spacing": 3,
 	  "separation": 2,
-	  "frequency_reduction_method": "default"
+	  "frequency_reduction_method": "legacy_type_2",
+	  "frequency": 0.3
 	}
   }
