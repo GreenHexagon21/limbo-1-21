@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "limbo:oasis",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1696542275,
+		"spacing": 3,
+		"separation": 2
+	}
+}
