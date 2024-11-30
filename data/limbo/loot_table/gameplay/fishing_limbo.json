@@ -7,13 +7,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "limbo:gameplay/fishing_dread",
+          "value": "limbo:gameplay/fishing_dread",
           "weight": 700,
           "conditions": [
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "limbo:dread"
+                "biomes": "limbo:dread"
               }
             }
           ]
@@ -28,7 +28,12 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Orb of Transmutation\",\"color\":\"gray\",\"bold\":true}",
                 "minecraft:profile": {
-                  "id": [-319079917, 1158563260, -1464689321, -159001546],
+                  "id": [
+                    -319079917,
+                    1158563260,
+                    -1464689321,
+                    -159001546
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -70,7 +75,12 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Limbo Scrap\"}",
                 "minecraft:profile": {
-                  "id": [-151654150, -1232777770, -1450101796, -1929274837],
+                  "id": [
+                    -151654150,
+                    -1232777770,
+                    -1450101796,
+                    -1929274837
+                  ],
                   "properties": [
                     {
                       "name": "textures",
