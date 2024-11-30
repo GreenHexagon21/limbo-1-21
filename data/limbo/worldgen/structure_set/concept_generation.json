@@ -1,0 +1,15 @@
+{
+	"structures": [
+	  {
+		"structure": "limbo:concept",
+		"weight": 40
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 83423472,
+	  "spacing": 16,
+	  "separation": 12
+	}
+  }
+  
