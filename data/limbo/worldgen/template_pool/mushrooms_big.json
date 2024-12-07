@@ -1,0 +1,43 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:mushrooms/mushroom_big_1",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		 "location": "limbo:mushrooms/mushroom_big_2",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		 "location": "limbo:mushrooms/mushroom_big_3",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	  ,
+	  {
+		"weight": 10,
+		"element": {
+		  "element_type": "minecraft:legacy_single_pool_element",
+		  "projection": "rigid",
+		 "location": "limbo:mushrooms/mushroom_big_4",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  
