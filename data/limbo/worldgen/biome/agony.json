@@ -13,14 +13,17 @@
 	  "ambient_sound": {
 		"sound_id": "extrasounds:ambient.limbo.loop"
 	  },
-	  "music": {
-		"sound": {
-		  "sound_id": "extrasounds:music.limbo"
-		},
-		"min_delay": 600,
-		"max_delay": 16000,
-		"replace_current_music": false
-	  },
+	  "music": [
+		{
+		  "weight": 1,
+		  "data": {
+			"sound": "extrasounds:music.limbo",
+			"min_delay": 800,
+			"max_delay": 8000,
+			"replace_current_music": true
+		  }
+		}
+	  ],
 	  "particle": {
 		"options": {
 		  "type": "minecraft:ash"
@@ -97,8 +100,7 @@
 	  [],
 	  [],
 	  [],
-	  [
-	  ],
+	  [],
 	  [],
 	  [],
 	  [],
