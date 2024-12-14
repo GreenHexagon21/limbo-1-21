@@ -15,6 +15,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Orb of Transmutation\",\"color\":\"gray\",\"bold\":true}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [-319079917, 1158563260, -1464689321, -159001546],
                   "properties": [
                     {
