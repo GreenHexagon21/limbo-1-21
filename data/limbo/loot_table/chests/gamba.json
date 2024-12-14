@@ -120,6 +120,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:profile": {
+					  "name": "",
 					  "id": [
 						-319079917,
 						1158563260,

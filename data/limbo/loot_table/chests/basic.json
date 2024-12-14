@@ -133,6 +133,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Limbo Scrap\"}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [-151654150, -1232777770, -1450101796, -1929274837],
                   "properties": [
                     {

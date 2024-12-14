@@ -52,6 +52,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Limbo Ingot\"}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [1693548367, -1796127120, -1291027844, 980512916],
                   "properties": [
                     {
