@@ -251,6 +251,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Essence of LIMBO\"}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [1666504969, -1185921694, -1819056869, -1798078000],
                   "properties": [
                     {
