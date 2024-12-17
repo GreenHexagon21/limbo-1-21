@@ -23,6 +23,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Ancient Ember\",\"color\":\"#E88605\",\"bold\":true}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [
                     1769211681,
                     1382891741,
@@ -53,6 +54,7 @@
               "components": {
                 "minecraft:custom_name": "{\"text\":\"Recovered Dirt\",\"color\":\"#82450A\",\"bold\":true}",
                 "minecraft:profile": {
+                  "name": "",
                   "id": [
                     -900730224,
                     900221810,
