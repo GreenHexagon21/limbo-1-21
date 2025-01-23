@@ -25,26 +25,7 @@
 	  "water_creature": []
 	},
 	"spawn_costs": {
-	  "minecraft:vindicator": {
-		"energy_budget": 0.12,
-		"charge": 20
-	  },
-	  "minecraft:pillager": {
-		"energy_budget": 0.12,
-		"charge": 10
-	  },
-	  "minecraft:evoker": {
-		"energy_budget": 0.12,
-		"charge": 30
-	  },
-	  "minecraft:enderman": {
-		"energy_budget": 0.12,
-		"charge": 5
-	  },
-	  "minecraft:spider": {
-		"energy_budget": 0.12,
-		"charge": 3
-	  }
+	
 	},
 	"carvers": [
 	  "minecraft:canyon",
