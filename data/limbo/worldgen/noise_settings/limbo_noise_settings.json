@@ -61,7 +61,7 @@
 	  "erosion": "minecraft:overworld/erosion",
 	  "depth": "limbo:depth",
 	  "ridges": "minecraft:overworld/ridges",
-	  "initial_density_without_jaggedness": {
+	  "preliminary_surface_level": {
 		"type": "minecraft:add",
 		"argument1": 0.1171875,
 		"argument2": {

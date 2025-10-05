@@ -7,7 +7,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:mushrooms/mushroom_giga",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:giga_mush_proc"
 		}
 	  }
 	]
