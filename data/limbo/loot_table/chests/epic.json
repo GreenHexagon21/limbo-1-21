@@ -28,7 +28,7 @@
         {
           "type": "minecraft:item",
           "weight": 25,
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_chain",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,10 +99,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Limbo Scrap"},
+                "minecraft:custom_name": {
+                  "text": "Limbo Scrap"
+                },
                 "minecraft:profile": {
                   "name": "",
-                  "id": [-151654150, -1232777770, -1450101796, -1929274837],
+                  "id": [
+                    -151654150,
+                    -1232777770,
+                    -1450101796,
+                    -1929274837
+                  ],
                   "properties": [
                     {
                       "name": "textures",
