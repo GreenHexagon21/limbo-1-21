@@ -5,7 +5,7 @@
   "creature_spawn_probability": 0.2,
   "effects": {
     "sky_color": 9737364,
-    "fog_color": 16448250,
+    "fog_color": 12303291,
     "water_color": 16777215,
     "water_fog_color": 16777215,
     "grass_color": 1315860,
@@ -93,10 +93,15 @@
       "charge": 3
     }
   },
-  "carvers": ["minecraft:canyon", "minecraft:cave"],
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave"
+  ],
   "features": [
     [],
-    ["limbo:piler"],
+    [
+      "limbo:piler"
+    ],
     [],
     [],
     [],
@@ -104,6 +109,9 @@
     [],
     [],
     [],
-    ["limbo:fallen_tree","limbo:ctv_placed_feature"]
+    [
+      "limbo:fallen_tree",
+      "limbo:ctv_placed_feature"
+    ]
   ]
 }
