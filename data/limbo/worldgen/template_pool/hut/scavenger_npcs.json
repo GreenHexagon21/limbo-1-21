@@ -1,0 +1,51 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/scavengers/enchanter_specialist_npc",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/scavengers/herbalist_specialist_npc",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/scavengers/shaman_specialist_npc",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/scavengers/smith_specialist_npc",
+		  "processors": "minecraft:empty"
+		}
+	  },
+      {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut/scavengers/extra_npc_1",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  
