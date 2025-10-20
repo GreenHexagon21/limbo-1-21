@@ -1,4 +1,4 @@
-execute in limbo:limbo_dim at @e[type=mannequin, name="Herbalist"] as @e[type=mannequin, name="Herbalist"] run tp @s @e[distance=..30, type=villager, name="Hermit Herbalist", limit=1, sort=nearest]
+execute in limbo:limbo_dim as @e[type=mannequin,name="Herbalist"] at @s if entity @e[type=villager,name="Hermit Herbalist",distance=..30] run tp @s @e[type=villager,name="Hermit Herbalist",distance=..30,limit=1,sort=nearest]
 execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Hermit Herbalist"] run attribute @e[distance=..30, type=villager, limit=1,sort=nearest, name="Hermit Herbalist"] scale base set 1.2 
 execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Hermit Herbalist"] run effect give @e[distance=..30, type=villager, limit=1,sort=nearest, name="Hermit Herbalist"] invisibility infinite 1 true
 execute in limbo:limbo_dim at @e[type=mannequin, name="Herbalist"] as @e[type=mannequin, name="Herbalist"] unless entity @e[distance=..30, type=villager, name="Hermit Herbalist"] run kill @s

@@ -1,4 +1,4 @@
-execute in limbo:limbo_dim at @e[type=mannequin, name="Scavenger"] as @e[type=mannequin, name="Scavenger"] run tp @s @e[distance=..30, type=villager, name="Secluded Scavenger", limit=1, sort=nearest]
+execute in limbo:limbo_dim as @e[type=mannequin,name="Scavenger"] at @s if entity @e[type=villager,name="Secluded Scavenger",distance=..30] run tp @s @e[type=villager,name="Secluded Scavenger",distance=..30,limit=1,sort=nearest]
 execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Secluded Scavenger"] run attribute @e[distance=..30, type=villager, limit=1,sort=nearest, name="Secluded Scavenger"] scale base set 1.2 
 execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Secluded Scavenger"] run effect give @e[distance=..30, type=villager, limit=1,sort=nearest, name="Secluded Scavenger"] invisibility infinite 1 true
 execute in limbo:limbo_dim at @e[type=mannequin, name="Scavenger"] as @e[type=mannequin, name="Scavenger"] unless entity @e[distance=..30, type=villager, name="Secluded Scavenger"] run kill @s
