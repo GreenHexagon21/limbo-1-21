@@ -1,0 +1,6 @@
+execute in limbo:limbo_dim at @e[type=mannequin, name="Enchanter"] as @e[type=mannequin, name="Enchanter"] run tp @s @e[distance=..30, type=villager, name="Exiled Enchanter", limit=1, sort=nearest]
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Exiled Enchanter"] run attribute @e[distance=..30, type=villager, limit=1,sort=nearest, name="Exiled Enchanter"] scale base set 1.2 
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Exiled Enchanter"] run effect give @e[distance=..30, type=villager, limit=1,sort=nearest, name="Exiled Enchanter"] invisibility infinite 1 true
+execute in limbo:limbo_dim at @e[type=mannequin, name="Enchanter"] as @e[type=mannequin, name="Enchanter"] unless entity @e[distance=..30, type=villager, name="Exiled Enchanter"] run kill @s
+execute in limbo:limbo_dim as @e[type=mannequin, name="Enchanter"] at @e[type=mannequin, name="Enchanter"] if block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Enchanter", limit=1, sort=nearest] pose set value "sleeping"
+execute in limbo:limbo_dim as @e[type=mannequin, name="Enchanter"] at @e[type=mannequin, name="Enchanter"] unless block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Enchanter", limit=1, sort=nearest] pose set value "standing"

@@ -1,6 +1,7 @@
 {
   "values":[
   "limbo:main",
-  "limbo:villagerer"
+  "limbo:villagerer",
+  "limbo:init"
   ]
 }

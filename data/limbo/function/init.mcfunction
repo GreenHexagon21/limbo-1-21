@@ -1,2 +1,2 @@
-scoreboard objectives add timer dummy
-scoreboard players add tick timer 1
+team add nocol
+team modify nocol collisionRule never
