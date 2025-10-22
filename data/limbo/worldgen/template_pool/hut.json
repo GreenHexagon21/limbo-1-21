@@ -11,11 +11,20 @@
 		}
 	  },
 	  {
-		"weight": 3,
+		"weight": 2,
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:hut_shaman_1",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  },
+	  	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_shaman_2",
 		  "processors": "limbo:hut_gravel_proc"
 		}
 	  },
