@@ -1,12 +1,24 @@
 {
 	"structures": [
 	  {
-		"structure": "limbo:hut",
-		"weight": 40
+		"structure": "limbo:hut_blacksmith",
+		"weight": 4
 	  },
 	  {
-		"structure": "limbo:hut_new",
-		"weight": 10
+		"structure": "limbo:hut_enchanter",
+		"weight": 3
+	  },
+		{
+		"structure": "limbo:hut_herbalist",
+		"weight": 4
+	  },
+	  	  {
+		"structure": "limbo:hut_scavenger",
+		"weight": 5
+	  },
+	  	  {
+		"structure": "limbo:hut_shaman",
+		"weight": 4
 	  }
 	],
 	"placement": {

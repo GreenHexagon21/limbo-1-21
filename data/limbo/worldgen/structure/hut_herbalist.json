@@ -7,7 +7,7 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "limbo:hut",
+	"start_pool": "limbo:hut_housing/hut_herbalist",
 	"size": 7,
 	"start_height": {
 		"absolute": 0

@@ -6,7 +6,7 @@
 	"step": "underground_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "limbo:mushrooms_giga",
+	"start_pool": "limbo:mushrooms/mushrooms_giga",
 	"size": 1,
 	"start_height": {
 	  "absolute": 0
