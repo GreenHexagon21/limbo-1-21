@@ -25,6 +25,14 @@
 		  "location": "limbo:hut_blacksmith_underground_3",
 		  "processors": "minecraft:empty"
 		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_blacksmith_underground_4",
+		  "processors": "minecraft:empty"
+		}
 	  }
 	]
   }

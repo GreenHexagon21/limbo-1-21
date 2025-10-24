@@ -18,6 +18,15 @@
 		  "location": "limbo:hut_herbalist_2_aboveground",
 		  "processors": "limbo:hut_gravel_proc"
 		}
+	  },
+	  {
+		"weight": 20,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_herbalist_3_aboveground",
+		  "processors": "limbo:hut_gravel_proc"
+		}
 	  }
 	]
   }
