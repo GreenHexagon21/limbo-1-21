@@ -15,7 +15,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -45,7 +45,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -75,7 +75,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -225,7 +225,7 @@
             ],
             "erosion": [
               0,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -255,7 +255,7 @@
             ],
             "erosion": [
               -0.5,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -285,7 +285,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -315,7 +315,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -345,7 +345,7 @@
             ],
             "erosion": [
               -1,
-              0.625
+              -0.8725
             ],
             "temperature": [
               -1,
@@ -374,8 +374,68 @@
               0.5
             ],
             "erosion": [
-              0.625,
+              -0.8725,
+              -0.6225
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:solitude"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.25,
               0.75
+            ],
+            "erosion": [
+              -0.6225,
+              0.585
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:isolation"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.25,
+              0.5
+            ],
+            "erosion": [
+              0.585,
+              0.7000000000000001
             ],
             "temperature": [
               -1,
@@ -404,8 +464,8 @@
               1
             ],
             "erosion": [
-              0.75,
-              1
+              0.7000000000000001,
+              0.8
             ],
             "temperature": [
               -1,
@@ -430,12 +490,42 @@
               1
             ],
             "continentalness": [
-              0.5,
-              1
+              0.25,
+              0.5
             ],
             "erosion": [
-              0.625,
+              0.8,
+              1.08
+            ],
+            "temperature": [
+              -1,
               1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:awe"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.5,
+              0.75
+            ],
+            "erosion": [
+              -0.8725,
+              1.08
             ],
             "temperature": [
               -1,
@@ -555,7 +645,7 @@
             ],
             "erosion": [
               0.5,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -585,7 +675,7 @@
             ],
             "erosion": [
               -1,
-              1
+              1.08
             ],
             "temperature": [
               -1,
@@ -735,7 +825,7 @@
             ],
             "erosion": [
               0.375,
-              1
+              1.08
             ],
             "temperature": [
               -1,
