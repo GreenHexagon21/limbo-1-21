@@ -19,6 +19,10 @@
 	  	  {
 		"structure": "limbo:hut_shaman",
 		"weight": 4
+	  },
+	  	  {
+		"structure": "limbo:hut_hub",
+		"weight": 1
 	  }
 	],
 	"placement": {

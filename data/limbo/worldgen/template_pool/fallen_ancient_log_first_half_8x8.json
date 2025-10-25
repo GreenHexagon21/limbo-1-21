@@ -1,0 +1,31 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/fallen_ancient_log_first_half_8x8_1",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/fallen_ancient_log_first_half_8x8_2",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/fallen_ancient_log_first_half_8x8_3",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  
