@@ -7,6 +7,10 @@
 	  	  {
 		"structure": "limbo:fallen_ancient_log_8x8",
 		"weight": 1
+	  },
+	  	  {
+		"structure": "limbo:ancient_trunk",
+		"weight": 2
 	  }
 	],
 	"placement": {

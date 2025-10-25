@@ -1,0 +1,71 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_1",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_2",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_3",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_4",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_5",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_6",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_7",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_8",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  
