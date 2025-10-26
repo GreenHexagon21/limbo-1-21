@@ -15,7 +15,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -45,7 +45,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -75,7 +75,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -225,7 +225,7 @@
             ],
             "erosion": [
               0,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -255,7 +255,7 @@
             ],
             "erosion": [
               -0.5,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -285,7 +285,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -315,7 +315,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -397,7 +397,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              0
             ],
             "continentalness": [
               0.25,
@@ -405,7 +405,7 @@
             ],
             "erosion": [
               -0.6225,
-              0.585
+              0.735
             ],
             "temperature": [
               -1,
@@ -434,68 +434,8 @@
               0.5
             ],
             "erosion": [
-              0.585,
-              0.7000000000000001
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "limbo:agony"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              0.25,
-              1
-            ],
-            "erosion": [
-              0.7000000000000001,
-              0.8
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "limbo:isolation"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              0.25,
-              0.5
-            ],
-            "erosion": [
-              0.8,
-              1.08
+              0.735,
+              0.85
             ],
             "temperature": [
               -1,
@@ -525,7 +465,7 @@
             ],
             "erosion": [
               -0.8725,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -645,7 +585,7 @@
             ],
             "erosion": [
               0.5,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -675,7 +615,7 @@
             ],
             "erosion": [
               -1,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -825,7 +765,7 @@
             ],
             "erosion": [
               0.375,
-              1.08
+              0.85
             ],
             "temperature": [
               -1,
@@ -842,6 +782,96 @@
             "offset": 0
           },
           "biome": "limbo:despair"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0,
+              1
+            ],
+            "continentalness": [
+              0.25,
+              0.75
+            ],
+            "erosion": [
+              -0.6225,
+              0
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:isolation"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0,
+              1
+            ],
+            "continentalness": [
+              0.25,
+              0.5
+            ],
+            "erosion": [
+              0,
+              0.125
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:agony"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0,
+              1
+            ],
+            "continentalness": [
+              0.25,
+              0.75
+            ],
+            "erosion": [
+              0.125,
+              0.735
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "limbo:isolation"
         }
       ],
       "type": "minecraft:multi_noise"

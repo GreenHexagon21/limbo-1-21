@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "limbo:hut_lookout",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 164453463,
+    "spacing": 4,
+    "separation": 0
+  }
+}
