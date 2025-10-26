@@ -65,6 +65,22 @@
 		  "location": "limbo:trunks/ancient_trunk_8",
 		  "processors": "minecraft:empty"
 		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_9",
+		  "processors": "minecraft:empty"
+		}
+	  }, {
+		"weight": 15,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:trunks/ancient_trunk_10",
+		  "processors": "minecraft:empty"
+		}
 	  }
 	]
   }

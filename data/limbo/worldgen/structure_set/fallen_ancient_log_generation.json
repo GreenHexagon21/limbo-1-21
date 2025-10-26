@@ -1,23 +1,28 @@
 {
-	"structures": [
-	  {
-		"structure": "limbo:fallen_ancient_log_6x6",
-		"weight": 1
-	  },
-	  	  {
-		"structure": "limbo:fallen_ancient_log_8x8",
-		"weight": 1
-	  },
-	  	  {
-		"structure": "limbo:ancient_trunk",
-		"weight": 2
-	  }
-	],
-	"placement": {
-	  "type": "minecraft:random_spread",
-	  "salt": 235761668,
-	  "spacing": 3,
-	  "separation": 2
-	}
+  "structures": [
+    {
+      "structure": "limbo:fallen_ancient_log_6x6",
+      "weight": 1
+    },
+    {
+      "structure": "limbo:fallen_ancient_log_8x8",
+      "weight": 1
+    },
+    {
+      "structure": "limbo:ancient_trunk",
+      "weight": 2
+    },
+    {
+      "structure": "limbo:ancient_trunk",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 235761668,
+    "spacing": 1,
+    "separation": 0,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.5
   }
-  
+}
