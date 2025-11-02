@@ -10,9 +10,6 @@
     "water_fog_color": 16777215,
     "grass_color": 1315860,
     "foliage_color": 1315860,
-    "ambient_sound": {
-      "sound_id": "extrasounds:ambient.limbo.loop"
-    },
     "music": [
       {
         "weight": 1,
