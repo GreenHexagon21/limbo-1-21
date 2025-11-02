@@ -1,0 +1,6 @@
+execute in limbo:limbo_dim as @e[type=mannequin,name="Headman"] at @s if entity @e[type=villager,name="Hallowed Headman",distance=..30] run tp @s @e[type=villager,name="Hallowed Headman",distance=..30,limit=1,sort=nearest]
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Hallowed Headman"] run attribute @e[distance=..30, type=villager, limit=1,sort=nearest, name="Hallowed Headman"] scale base set 1.2 
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Hallowed Headman"] run effect give @e[distance=..30, type=villager, limit=1,sort=nearest, name="Hallowed Headman"] invisibility infinite 1 true
+execute in limbo:limbo_dim at @e[type=mannequin, name="Headman"] as @e[type=mannequin, name="Headman"] unless entity @e[distance=..30, type=villager, name="Hallowed Headman"] run kill @s
+execute in limbo:limbo_dim as @e[type=mannequin, name="Headman"] at @e[type=mannequin, name="Headman"] if block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Headman", limit=1, sort=nearest] pose set value "sleeping"
+execute in limbo:limbo_dim as @e[type=mannequin, name="Headman"] at @e[type=mannequin, name="Headman"] unless block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Headman", limit=1, sort=nearest] pose set value "standing"

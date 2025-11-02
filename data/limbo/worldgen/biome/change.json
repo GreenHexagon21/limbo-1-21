@@ -11,7 +11,7 @@
     "grass_color": 1315860,
     "foliage_color": 1315860,
     "ambient_sound": {
-      "sound_id": "extrasounds:ambient.limbo.loop"
+      "sound_id": "extrasounds:ambient.limbo.loop.water"
     },
     "music": [
       {
