@@ -1,0 +1,43 @@
+{
+  "temperature": 0.2,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.2,
+  "effects": {
+    "sky_color": 9737364,
+    "fog_color": 13290186,
+    "water_color": 16777215,
+    "water_fog_color": 16777215,
+    "grass_color": 1315860,
+    "foliage_color": 1315860,
+    "ambient_sound": {
+      "sound_id": "extrasounds:ambient.limbo.loop.factory"
+    }
+  },
+  "spawners": {
+    "creature": [],
+    "misc": [],
+    "monster": [
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}
