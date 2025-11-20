@@ -117,6 +117,78 @@
 				"location": "limbo:factory/rooms/huge/carts",
 				"processors": "minecraft:empty"
 			}
+		},
+								{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/big_square/crane",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/logs",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/lockers",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/pipes",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/stuff",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/thingies",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/water",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/tall/trap",
+				"processors": "minecraft:empty"
+			}
 		}
 	]
 }
