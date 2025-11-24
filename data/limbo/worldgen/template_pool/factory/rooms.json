@@ -119,7 +119,7 @@
 			}
 		},
 								{
-			"weight": 1,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -182,11 +182,56 @@
 			}
 		},
 								{
-			"weight": 1,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:factory/rooms/tall/trap",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/canteen",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/maze",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/office",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/tall/pistons",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/tall/rail",
 				"processors": "minecraft:empty"
 			}
 		}
