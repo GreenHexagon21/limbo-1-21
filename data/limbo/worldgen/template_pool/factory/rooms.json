@@ -119,7 +119,7 @@
 			}
 		},
 								{
-			"weight": 4,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -232,6 +232,33 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:factory/rooms/tall/rail",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/long/pullers",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/t_maze",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/very_tall/mixed",
 				"processors": "minecraft:empty"
 			}
 		}
