@@ -1,4 +1,3 @@
-say hi
 execute as @e[type=minecraft:marker, name="turret", tag=raycaster] run tag @s add activated
 schedule function limbo:fire_turret 1.10s append
 schedule function limbo:fire_turret 1.30s append
