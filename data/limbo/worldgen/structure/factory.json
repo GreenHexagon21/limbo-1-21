@@ -6,7 +6,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "limbo:factory/base",
-  "size": 5,
+  "size": 6,
   "start_height": {
     "absolute": 30
   },
