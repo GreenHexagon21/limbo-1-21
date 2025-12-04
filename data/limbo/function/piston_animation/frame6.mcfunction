@@ -1,3 +1,3 @@
-execute as @a at @s run execute at @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"] run clone ^2 ^5 ^2 ^-2 ^5 ^-2 ^-2 ^4 ^-2 replace
-execute as @a at @s run execute at @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"] run clone ^2 ^6 ^2 ^-2 ^6 ^-2 ^-2 ^5 ^-2 replace
+execute as @a at @s run execute at @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"] run clone ~2 ~5 ~2 ~-2 ~5 ~-2 ~-2 ~4 ~-2 replace
+execute as @a at @s run execute at @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"] run clone ~2 ~6 ~2 ~-2 ~6 ~-2 ~-2 ~5 ~-2 replace
 execute as @a at @s run execute at @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"] run kill @e[type=minecraft:marker,limit=1, sort=nearest,name="big_piston"]
