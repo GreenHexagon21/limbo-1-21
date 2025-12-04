@@ -261,6 +261,16 @@
 				"location": "limbo:factory/rooms/very_tall/mixed",
 				"processors": "minecraft:empty"
 			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/tall/waterfall",
+				"processors": "minecraft:empty"
+			}
 		}
+
 	]
 }

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,name="turret",tag=activated] at @s run tag @s remove activated

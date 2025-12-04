@@ -2,7 +2,7 @@
 scoreboard players remove .raycastLimit raycast 1
 
 # Optional: display a particle
-particle minecraft:flame
+particle minecraft:ominous_spawning
 
 # Check if the raycast has hit an entity's hitbox
 execute positioned ~-.99 ~-.99 ~-.99 as @e[dx=0,tag=!raycaster] positioned ~.99 ~.99 ~.99 as @s[dx=0] run return run function limbo:raycast_hit

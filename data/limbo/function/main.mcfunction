@@ -9,5 +9,6 @@ execute in limbo:limbo_dim as @a run team join nocol @e[type=mannequin]
 execute in limbo:limbo_dim as @e[type=villager,name="Hallowed Headman",limit=1,sort=nearest] at @e[type=villager,name="Hallowed Headman",limit=1,sort=nearest] if biome ~ ~ ~ limbo:awe run fillbiome ~10 ~10 ~10 ~-10 ~-10 ~-10 limbo:rest
 execute in limbo:limbo_dim as @e[type=marker,name="factory_ambience",sort=nearest] at @s unless biome ~ ~ ~ limbo:fear run fillbiome ~8 ~8 ~8 ~-8 ~-8 ~-8 limbo:fear
 execute as @e[name="waterfall_ambience"] at @s if entity @a[sort=nearest,limit=1,distance=..16] if score waterfall sounds matches 0 run function limbo:waterfaller
+execute as @e[type=minecraft:marker, name="turret"] unless entity @s[type=marker,nbt={Tags:["activated"]}] run function limbo:raycast_start
 
 schedule function limbo:main 20
