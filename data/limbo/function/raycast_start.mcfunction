@@ -1,4 +1,4 @@
 tag @s add raycaster
-scoreboard players set .raycastLimit raycast 1000
+scoreboard players set .raycastLimit raycast 500
 execute at @s anchored eyes positioned ^ ^ ^.1 run function limbo:raycast
 tag @s remove raycaster

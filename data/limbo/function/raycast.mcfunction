@@ -2,10 +2,10 @@
 scoreboard players remove .raycastLimit raycast 1
 
 # Optional: display a particle
-particle minecraft:ominous_spawning
+particle minecraft:underwater
 
 # Check if the raycast has hit an entity's hitbox
 execute positioned ~-.99 ~-.99 ~-.99 as @e[dx=0,tag=!raycaster] positioned ~.99 ~.99 ~.99 as @s[dx=0] run return run function limbo:raycast_hit
 
 # If the raycast has not hit a wall, and the limit has not been reached, move the raycast forward and run the function again
-execute if block ~ ~ ~ #minecraft:replaceable if score .raycastLimit raycast matches 1.. positioned ^ ^ ^0.1 run function limbo:raycast
+execute if block ~ ~ ~ #minecraft:replaceable if score .raycastLimit raycast matches 1.. positioned ^ ^ ^0.2 run function limbo:raycast

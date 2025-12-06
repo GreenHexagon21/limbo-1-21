@@ -270,6 +270,24 @@
 				"location": "limbo:factory/rooms/tall/waterfall",
 				"processors": "minecraft:empty"
 			}
+		},
+								{
+			"weight": 40,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/long/turrets",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 40,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/square/turret",
+				"processors": "minecraft:empty"
+			}
 		}
 
 	]
