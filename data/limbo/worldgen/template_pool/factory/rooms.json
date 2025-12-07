@@ -272,7 +272,7 @@
 			}
 		},
 								{
-			"weight": 40,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -281,11 +281,20 @@
 			}
 		},
 								{
-			"weight": 40,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:factory/rooms/square/turret",
+				"processors": "minecraft:empty"
+			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/tall/cogs",
 				"processors": "minecraft:empty"
 			}
 		}
