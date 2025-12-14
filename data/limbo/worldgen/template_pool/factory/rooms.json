@@ -297,6 +297,15 @@
 				"location": "limbo:factory/rooms/tall/cogs",
 				"processors": "minecraft:empty"
 			}
+		},
+								{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/big/pistons",
+				"processors": "minecraft:empty"
+			}
 		}
 
 	]
