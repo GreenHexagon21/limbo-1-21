@@ -1,0 +1,68 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/cspi-vex-wisk_ud",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/empty_ud",
+				"processors": "minecraft:empty"
+			}
+		},
+				{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/ill_ud",
+				"processors": "minecraft:empty"
+			}
+		},		
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/spi-cspi_ud",
+				"processors": "minecraft:empty"
+			}
+		},
+				{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/spi-vex-wisk_ud",
+				"processors": "minecraft:empty"
+			}
+		},
+				{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/vin-pil-jock_ud",
+				"processors": "minecraft:empty"
+			}
+		},
+				{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/spawners/vin-pil-vex_ud",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}
