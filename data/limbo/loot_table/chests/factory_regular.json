@@ -10,6 +10,25 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:minecart"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "weight": 30,
           "functions": [
@@ -220,7 +239,7 @@
       "rolls": 1,
       "entries": [
         {
-           "type": "minecraft:item",
+          "type": "minecraft:item",
           "weight": 15,
           "name": "minecraft:player_head",
           "functions": [
