@@ -1,260 +1,73 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 5
+        "min": 1,
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rail",
-          "weight": 20,
+          "name": "minecraft:splash_potion",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 7,
-                "max": 20
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Exporer's Potion",
+                "color": "gold",
+                "italic": false
               }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:minecart"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_bars",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_block",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
             },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": true
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": true
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_chain",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:player_head",
-          "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Capacitor"
-                },
-                "minecraft:profile": {
-                  "name": "",
-                  "properties": [
+                "minecraft:potion_contents": {
+                  "custom_color": 16772198,
+                  "custom_name": "Exporer's Potion",
+                  "custom_effects": [
                     {
-                      "name": "textures",
-                      "value": "ewogICJ0aW1lc3RhbXAiIDogMTc2NjQ0Mzk0NTA4MCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xM2I5MGQxOTY5ZWQ0MjE0NzhmZmY0YjA5NTdkODUyZTBiNTMyY2E3ZGM4MTdiNWM1M2RhZTU2NDc1NTg3MmQ2IgogICAgfQogIH0KfQ=="
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "text": "Capacitor"
-                },
-                "minecraft:profile": {
-                  "name": "",
-                  "properties": [
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 0,
+                      "duration": 500,
+                      "show_particles": false
+                    },
                     {
-                      "name": "textures",
-                      "value": "ewogICJ0aW1lc3RhbXAiIDogMTc2NjQ0Mzk0NTA4MCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xM2I5MGQxOTY5ZWQ0MjE0NzhmZmY0YjA5NTdkODUyZTBiNTMyY2E3ZGM4MTdiNWM1M2RhZTU2NDc1NTg3MmQ2IgogICAgfQogIH0KfQ=="
+                      "id": "minecraft:saturation",
+                      "duration": 40,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 100,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "duration": 400,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 4000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 2,
+                      "duration": 2000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 1,
+                      "duration": 400,
+                      "show_particles": false
                     }
                   ]
                 }
