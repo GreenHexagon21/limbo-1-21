@@ -32,7 +32,7 @@
                     {
                       "id": "minecraft:mining_fatigue",
                       "amplifier": 0,
-                      "duration": 500,
+                      "duration": 600,
                       "show_particles": false
                     },
                     {
@@ -48,25 +48,228 @@
                     },
                     {
                       "id": "minecraft:night_vision",
-                      "duration": 400,
+                      "duration": 600,
                       "show_particles": false
                     },
                     {
                       "id": "minecraft:speed",
                       "amplifier": 0,
-                      "duration": 4000,
+                      "duration": 6600,
                       "show_particles": false
                     },
                     {
                       "id": "minecraft:luck",
                       "amplifier": 2,
-                      "duration": 2000,
+                      "duration": 3600,
                       "show_particles": false
                     },
                     {
                       "id": "minecraft:absorption",
                       "amplifier": 1,
-                      "duration": 400,
+                      "duration": 600,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Miner's Potion",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 10336712,
+                  "custom_name": "Miner's Potion",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 2,
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "duration": 40,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 2,
+                      "duration": 3600,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Tank's Potion",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16215966,
+                  "custom_name": "Tank's Potion",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "duration": 300,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 300,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:health_boost",
+                      "amplifier": 1,
+                      "duration": 6000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:slow_falling",
+                      "amplifier": 0,
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 300,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Fighter's Potion",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 14483456,
+                  "custom_name": "Fighter's Potion",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health"
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "duration": 3000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "duration": 300,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "duration": 40,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 2,
+                      "duration": 600,
                       "show_particles": false
                     }
                   ]
