@@ -1,0 +1,6 @@
+execute in limbo:limbo_dim as @e[type=mannequin,name="Mechanist"] at @s if entity @e[type=villager,name="Sane Mechanist",distance=..30] run tp @s @e[type=villager,name="Sane Mechanist",distance=..30,limit=1,sort=nearest]
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Sane Mechanist"] run attribute @e[distance=..30, type=villager, limit=1,sort=nearest, name="Sane Mechanist"] scale base set 1.2 
+execute in limbo:limbo_dim at @a if entity @e[distance=..30, type=villager, name="Sane Mechanist"] run effect give @e[distance=..30, type=villager, limit=1,sort=nearest, name="Sane Mechanist"] invisibility infinite 1 true
+execute in limbo:limbo_dim at @e[type=mannequin, name="Mechanist"] as @e[type=mannequin, name="Mechanist"] unless entity @e[distance=..30, type=villager, name="Sane Mechanist"] run kill @s
+execute in limbo:limbo_dim as @e[type=mannequin, name="Mechanist"] at @e[type=mannequin, name="Mechanist"] if block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Mechanist", limit=1, sort=nearest] pose set value "sleeping"
+execute in limbo:limbo_dim as @e[type=mannequin, name="Mechanist"] at @e[type=mannequin, name="Mechanist"] unless block ~ ~ ~ minecraft:black_bed run data modify entity @e[type=mannequin, name="Mechanist", limit=1, sort=nearest] pose set value "standing"
