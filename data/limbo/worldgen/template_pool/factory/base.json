@@ -6,7 +6,16 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "limbo:factory/rooms/big_square/crane",
+				"location": "limbo:factory/rooms/big_square/crane_1",
+				"processors": "minecraft:empty"
+			}
+		},
+				{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "limbo:factory/rooms/big_square/crane_2",
 				"processors": "minecraft:empty"
 			}
 		}

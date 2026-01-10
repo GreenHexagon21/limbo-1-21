@@ -6,7 +6,7 @@
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
-				"location": "limbo:factory/factory_space",
+				"location": "limbo:factory/rooms/special/square/trade",
 				"processors": "limbo:factory_space_proc"
 			}
 		}
