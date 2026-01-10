@@ -4,10 +4,10 @@
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:legacy_single_pool_element",
+				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:factory/rooms/special/square/trade",
-				"processors": "limbo:factory_space_proc"
+				"processors": "minecraft:empty"
 			}
 		}
 	]
