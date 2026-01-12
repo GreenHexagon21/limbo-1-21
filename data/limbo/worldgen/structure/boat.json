@@ -6,7 +6,7 @@
 	"step": "underground_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "none",
-	"start_pool": "limbo:half_cogs",
+	"start_pool": "limbo:boat",
 	"size": 1,
 	"start_height": {
 	  "absolute": 1
