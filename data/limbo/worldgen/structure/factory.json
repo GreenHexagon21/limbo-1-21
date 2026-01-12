@@ -1,7 +1,9 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "limbo:isolation"
+    "limbo:isolation",
+    "limbo:agony",
+    "limbo:desolation"
   ],
   "step": "surface_structures",
   "spawn_overrides": {},

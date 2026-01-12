@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/shipwreck_map"
+}
