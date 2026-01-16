@@ -1,4 +1,21 @@
 {
+          "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "extrasounds:ambient.limbo.loop"
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "extrasounds:music.limbo"
+        },
+        "min_delay": 800,
+        "max_delay": 8000,
+        "replace_current_music": true
+      }
+    }
+  },
   "temperature": 0.2,
   "downfall": 0.4,
   "has_precipitation": false,
@@ -93,10 +110,15 @@
       "charge": 3
     }
   },
-  "carvers": ["minecraft:canyon", "minecraft:cave"],
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave"
+  ],
   "features": [
     [],
-    ["limbo:piler"],
+    [
+      "limbo:piler"
+    ],
     [],
     [],
     [],
@@ -104,7 +126,11 @@
     [],
     [],
     [],
-    ["limbo:ct_placed_feature"],
-    ["limbo:st_placed_feature"]
+    [
+      "limbo:ct_placed_feature"
+    ],
+    [
+      "limbo:st_placed_feature"
+    ]
   ]
 }

@@ -1,69 +1,61 @@
 {
-	"temperature": 0.2,
-	"downfall": 0.4,
-	"has_precipitation": false,
-	"creature_spawn_probability": 0.2,
-	"effects": {
-	  "sky_color": 9737364,
-	  "fog_color": 16448250,
-	  "water_color": 16777215,
-	  "water_fog_color": 16777215,
-	  "grass_color": 15263976,
-	  "foliage_color": 15592941,
-	  "particle": {
-		"options": {
-		  "type": "minecraft:instant_effect"
-		},
-		"probability": 0.01
-	  }
-	},
-	"spawners": {
-	  "creature": [],
-	  "misc": [],
-	  "monster": [],
-	  "water_ambient": [],
-	  "water_creature": []
-	},
-	"spawn_costs": {
-	  "minecraft:vindicator": {
-		"energy_budget": 0.12,
-		"charge": 20
-	  },
-	  "minecraft:pillager": {
-		"energy_budget": 0.12,
-		"charge": 10
-	  },
-	  "minecraft:evoker": {
-		"energy_budget": 0.12,
-		"charge": 30
-	  },
-	  "minecraft:enderman": {
-		"energy_budget": 0.12,
-		"charge": 5
-	  },
-	  "minecraft:spider": {
-		"energy_budget": 0.12,
-		"charge": 3
-	  }
-	},
-	"carvers": [
-	  "minecraft:canyon",
-	  "minecraft:cave"
-	],
-	"features": [
-	  [],
-	  [],
-	  [],
-	  [],
-	  [],
-	  [],
-	  [],
-	  [],
-	  [
-		"limbo:hope_tree"
-	  ],
-	  [],
-	  []
-	]
-  }
-  
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:instant_effect"
+        },
+        "probability": 0.01
+      }
+    ]
+  },
+  "temperature": 0.2,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.2,
+  "effects": {
+    "sky_color": 9737364,
+    "fog_color": 16448250,
+    "water_color": 16777215,
+    "water_fog_color": 16777215,
+    "grass_color": 15263976,
+    "foliage_color": 15592941,
+    "particle": {
+      "options": {
+        "type": "minecraft:instant_effect"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {
+    "minecraft:vindicator": {
+      "energy_budget": 0.12,
+      "charge": 20
+    },
+    "minecraft:pillager": {
+      "energy_budget": 0.12,
+      "charge": 10
+    },
+    "minecraft:evoker": {
+      "energy_budget": 0.12,
+      "charge": 30
+    },
+    "minecraft:enderman": {
+      "energy_budget": 0.12,
+      "charge": 5
+    },
+    "minecraft:spider": {
+      "energy_budget": 0.12,
+      "charge": 3
+    }
+  },
+  "carvers": ["minecraft:canyon", "minecraft:cave"],
+  "features": [[], [], [], [], [], [], [], [], ["limbo:hope_tree"], [], []]
+}

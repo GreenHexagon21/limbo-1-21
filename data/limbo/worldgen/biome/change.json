@@ -1,4 +1,21 @@
 {
+      "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "extrasounds:ambient.limbo.loop.water"
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "extrasounds:music.limbo"
+        },
+        "min_delay": 800,
+        "max_delay": 8000,
+        "replace_current_music": true
+      }
+    }
+  },
   "temperature": 0.2,
   "downfall": 0.4,
   "has_precipitation": false,
