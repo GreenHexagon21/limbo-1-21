@@ -29,5 +29,4 @@ execute at @a as @e[type=marker,limit=1,sort=nearest,name="recycler_in"] at @s i
 execute at @a as @e[type=marker,limit=1,sort=nearest,name="recycler_in"] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:player_head",count:1,components:{"minecraft:custom_name":'"drawer"'}}},sort=nearest,distance=..1] run function limbo:scrapper_4_item_out
 execute at @a as @e[type=marker,limit=1,sort=nearest,name="recycler_in"] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:player_head",count:1,components:{"minecraft:custom_name":'"console"'}}},sort=nearest,distance=..1] run function limbo:scrapper_4_item_out
 
-
 schedule function limbo:turreter 5
