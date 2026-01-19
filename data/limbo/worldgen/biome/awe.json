@@ -13,19 +13,14 @@
     "ambient_sound": {
       "sound_id": "extrasounds:ambient.limbo.loop.wind"
     },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "extrasounds:music.limbo"
-          },
-          "min_delay": 800,
-          "max_delay": 8000,
-          "replace_current_music": true
-        }
-      }
-    ]
+    "music": {
+      "sound": {
+        "sound_id": "extrasounds:music.limbo"
+      },
+      "min_delay": 800,
+      "max_delay": 8000,
+      "replace_current_music": false
+    }
   },
   "spawners": {
     "creature": [],
@@ -87,10 +82,10 @@
       "charge": 3
     }
   },
-  "carvers": [
-    "minecraft:cave",
-    "minecraft:canyon"
-  ],
+  "carvers": {
+    "air": ["cave","canyon"],
+    "liquid": ["cave","canyon"]
+  },
   "features": [
     [],
     [],

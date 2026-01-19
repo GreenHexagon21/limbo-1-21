@@ -46,10 +46,10 @@
 		"charge": 3
 	  }
 	},
-	"carvers": [
-	  "minecraft:cave",
-	  "minecraft:canyon"
-	],
+  "carvers": {
+    "air": ["cave","canyon"],
+    "liquid": ["cave","canyon"]
+  },
 	"features": [
 	  [],
 	  [],

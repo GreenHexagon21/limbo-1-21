@@ -10,19 +10,14 @@
     "water_fog_color": 16777215,
     "grass_color": 1315860,
     "foliage_color": 1315860,
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "extrasounds:music.limbo"
-          },
-          "min_delay": 800,
-          "max_delay": 8000,
-          "replace_current_music": true
-        }
-      }
-    ],
+    "music": {
+      "sound": {
+        "sound_id": "extrasounds:music.limbo"
+      },
+      "min_delay": 800,
+      "max_delay": 8000,
+      "replace_current_music": false
+    },
     "particle": {
       "options": {
         "type": "minecraft:ash"
@@ -90,7 +85,10 @@
       "charge": 3
     }
   },
-  "carvers": ["minecraft:canyon", "minecraft:cave"],
+    "carvers": {
+    "air": ["cave","canyon"],
+    "liquid": ["cave","canyon"]
+  },
   "features": [
     [],
     ["limbo:piler"],
