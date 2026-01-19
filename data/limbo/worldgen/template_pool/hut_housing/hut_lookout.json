@@ -6,7 +6,7 @@
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
-		  "location": "limbo:hut_lookout",
+		  "location": "limbo:hut_lookout_backport",
 		  "processors": "minecraft:empty"
 		}
 	  }
