@@ -21,7 +21,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Ancient Ember","color":"#E88605","bold":true},
+                "minecraft:custom_name": "{\"text\":\"Ancient Ember\",\"color\":\"#E88605\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "",
                   "id": [
@@ -52,7 +52,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Recovered Dirt","color":"#82450A","bold":true},
+                "minecraft:custom_name": "{\"text\":\"Recovered Dirt\",\"color\":\"#82450A\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "",
                   "id": [

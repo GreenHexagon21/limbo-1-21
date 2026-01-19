@@ -227,9 +227,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Capacitor"
-                },
+                "minecraft:custom_name": "{\"text\": \"Capacitor\"}",
                 "minecraft:profile": {
                   "name": "",
                   "properties": [
@@ -256,9 +254,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Capacitor"
-                },
+                "minecraft:custom_name": "{\"text\": \"Capacitor\"}",
                 "minecraft:profile": {
                   "name": "",
                   "properties": [

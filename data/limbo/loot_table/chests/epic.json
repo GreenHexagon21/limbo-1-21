@@ -99,9 +99,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Limbo Scrap"
-                },
+                "minecraft:custom_name": "{\"text\": \"Limbo Scrap\"}",
                 "minecraft:profile": {
                   "name": "",
                   "id": [

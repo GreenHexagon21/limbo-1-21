@@ -15,9 +15,9 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_name": {"text":"Fisherman's note"},
+                    "minecraft:custom_name": "{\"text\":\"Fisherman's note\"}",
                     "minecraft:lore": [
-                      {"text":"Had more luck on deeper waters"}
+                     "{\"text\":\"Had more luck on deeper waters\"}"
                     ]
                   }
                 }
