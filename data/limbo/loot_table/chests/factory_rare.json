@@ -16,18 +16,15 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
+              "only_compatible": false
             }
           ]
         },
@@ -37,18 +34,15 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             }
           ]
         },
@@ -68,23 +62,19 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
+              "only_compatible": false
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
+              "only_compatible": false
             }
           ]
         },
@@ -95,23 +85,19 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": false
+              "only_compatible": false
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": false,
-              "include_additional_cost_component": true
+              "only_compatible": false
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             }
           ]
         },
@@ -121,23 +107,19 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": true
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             }
           ]
         },
@@ -147,23 +129,19 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             }
           ]
         },
@@ -174,39 +152,33 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             },
             {
               "function": "minecraft:enchant_randomly",
-              "only_compatible": true,
-              "include_additional_cost_component": false
+              "only_compatible": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_chain",
+          "name": "minecraft:chain",
           "weight": 20
         },
         {

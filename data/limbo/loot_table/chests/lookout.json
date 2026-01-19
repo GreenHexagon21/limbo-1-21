@@ -34,7 +34,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:resin_clump",
+          "name": "minecraft:cherry_log",
           "weight": 2,
           "functions": [
             {
@@ -73,7 +73,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:closed_eyeblossom",
+          "name": "minecraft:wither_rose",
           "functions": [
             {
               "function": "minecraft:set_count",
