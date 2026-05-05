@@ -30,11 +30,13 @@
     ]
   },
   "timelines": "#minecraft:in_nether",
+  "default_clock": "minecraft:overworld",
   "has_skylight": true,
   "has_ceiling": false,
   "coordinate_scale": 1,
   "ambient_light": 0.01,
   "has_fixed_time": true,
+  "has_ender_dragon_fight": true,
   "logical_height": 384,
   "skybox": "none",
   "cardinal_light": "nether",
