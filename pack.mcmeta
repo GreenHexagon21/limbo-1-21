@@ -1,7 +1,13 @@
 {
-	"pack": {
-		"min_format": 94,
-		"max_format": 95,
-		"description": "A datapack that adds the LIMBO dimension By Reppeti"
-	}
+  "pack": {
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ],
+    "description": "A datapack that adds the LIMBO dimension By Reppeti"
+  }
 }
